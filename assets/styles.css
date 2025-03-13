@@ -1,0 +1,79 @@
+:root {
+  --primary: #f2aa00 !important;
+  --text: #ffffff !important;
+  --black: #222120 !important;
+}
+
+[data-testid="stToolbar"] {
+  display: none;
+}
+
+[data-testid="stHeaderActionElements"] {
+  display: none;
+}
+
+[data-testid="stDecoration"] {
+  display: none;
+}
+
+[data-testid="stHeaderActionElements"] {
+  display: none;
+}
+
+[data-testid="StyledFullScreenButton"] {
+  display: none;
+}
+
+[data-testid="stSidebarCollapseButton"] > button {
+  transition: all 0.3s ease-in-out;
+  color: var(--black);
+  background-color: var(--primary);
+  border: 1px solid var(--black) !important;
+  border-radius: 50%;
+}
+
+[data-testid="stSidebarCollapseButton"] > button:hover {
+  transform: scale(1.1);
+  color: var(--primary);
+  background-color: var(--black);
+  border: 1px solid var(--primary) !important;
+}
+
+.stSidebar {
+  justify-content: center;
+  text-align: center;
+}
+
+.stImage {
+  margin-bottom: 20px;
+  display: flex !important;
+  justify-content: center !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.stImage:hover {
+  transform: scale(1.1);
+}
+
+.stButton > button {
+  color: var(--black);
+  background-color: var(--primary);
+  border: 1px solid var(--black) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.stButton > button:hover {
+  transform: scale(1.1);
+  color: var(--primary);
+  background-color: var(--black);
+  border: 1px solid var(--primary) !important;
+}
+
+.stButton > button p {
+  font-weight: bold;
+}
+
+h1 {
+  color: var(--primary);
+  margin-bottom: 20px;
+}
