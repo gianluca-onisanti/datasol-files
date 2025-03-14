@@ -1,5 +1,6 @@
 :root {
   --primary: #f2aa00 !important;
+  --darken: #45381b !important;
   --text: #ffffff !important;
   --black: #222120 !important;
 }
@@ -39,6 +40,10 @@
   border: 1px solid var(--primary) !important;
 }
 
+.stAppViewBlockContainer {
+  margin-top: -70px !important;
+}
+
 .stSidebar {
   justify-content: center;
   text-align: center;
@@ -67,6 +72,13 @@
   color: var(--primary);
   background-color: var(--black);
   border: 1px solid var(--primary) !important;
+}
+
+button:focus,
+button:active {
+  color: var(--text) !important;
+  background-color: var(--darken) !important;
+  border: 1px solid var(--text) !important;
 }
 
 .stButton > button p {

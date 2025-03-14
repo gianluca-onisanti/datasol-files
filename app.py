@@ -19,9 +19,9 @@ if st.sidebar.button("Conversor PDF para PDF/A"):
     st.session_state.page = "01"
 if st.sidebar.button("Assinatura de Arquivos"):
     st.session_state.page = "02"
-if st.sidebar.button("Página 3"):
+if st.sidebar.button("Converter PDF para Imagens"):
     st.session_state.page = "03"
-if st.sidebar.button("Página 4"):
+if st.sidebar.button("Unificar PDFs"):
     st.session_state.page = "04"
 
 # Inicializa a página padrão
@@ -83,9 +83,9 @@ elif st.session_state.page == "02":
     st.write("...")
 
 elif st.session_state.page == "03":
-    st.title("Página 3")
+    st.title("Converter PDF em Imagens")
     st.write("...")
 
 elif st.session_state.page == "04":
-    st.title("Página 4")
+    st.title("Unificar PDFs")
     st.write("...")
